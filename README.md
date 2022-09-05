@@ -1,10 +1,11 @@
 # Joint Gaussian Graphical Model Estimation: A Survey
 
+This repo is the implementation of the review paper [[1]](#1)
 ## Test Models
-1. Fused graphical lasso [[1]](#1)
-2. Group graphical lasso [[1]](#1)
-3. Graphical lasso [[1]](#1)
-4. Doubly joint spike-and-slab graphical lasso [[2]](#2)
+1. Fused graphical lasso [[2]](#2)
+2. Group graphical lasso [[2]](#2)
+3. Graphical lasso [[2]](#2)
+4. Doubly joint spike-and-slab graphical lasso [[3]](#3)
     
 ## Installation
 1. Anaconda Environment package: 
@@ -88,12 +89,18 @@ Please check the structure tree below for more details.
 ```
 
 ## References
+
 <a id="1">[1]</a> 
+Tsai, K., Koyejo, O., & Kolar, M. (2022). 
+Joint Gaussian graphical model estimation: A survey. 
+Wiley Interdisciplinary Reviews: Computational Statistics, e1582.
+
+<a id="2">[2]</a> 
 Danaher, P., Wang, P., & Witten, D. M. (2014). 
 The joint graphical lasso for inverse covariance estimation across multiple classes. 
 Journal of the Royal Statistical Society. Series B, Statistical methodology, 76(2), 373.
 
-<a id="2">[2]</a>
+<a id="3">[3]</a>
 Zehang Richard Li, Tyler H. McCormick, and Samuel J. Clark. 
 ["Bayesian joint spike-and-slab graphical lasso"](https://github.com/richardli/SSJGL).
  International Conference on Machine Learning, 2019.
